@@ -1,0 +1,124 @@
+html{
+	font-size: 1.375em; 
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px/1.5 
+	
+}
+@font-face {
+    font-family: myFont;
+    src: url(Exo-Bold.otf);
+
+}
+@font-face {
+    font-family: myFont2;
+    src: url(AurulentSans-Regular.otf);
+}
+.header {
+	font-family: myFont;
+	background-color: black;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+
+}
+.image{
+	height: 9rem;
+}
+
+h1{
+	color: green;
+	text-align: center;
+	padding: 0.5em;
+	margin: 1px;
+	position: relative;
+	font-size: 2.200em;
+}
+nav{
+	height: 100%;
+	padding: 0em;
+	
+}
+
+nav ul li{
+	display: inline;
+	padding: 0.75em;
+	margin: 0.40em;
+	list-style: none;
+
+}
+
+ul{
+	text-align: center;
+}
+	
+.container{
+	background-color: #fff;
+	
+
+}
+
+
+p{
+	font-family: myFont2;
+	line-height: 1.5rem;
+	text-align: center;
+	padding: 10em;
+	margin: -5em;
+	
+
+}
+
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0.5em;
+}
+tr:nth-child(even) {
+    background: green;
+}
+
+ul.a, ul.b, ul.c{
+    list-style-type: square;
+
+}
+
+ul.d{
+	margin: 5em;
+
+
+}
+
+h3{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: myFont2;
+}
+
+ul.e {
+	list-style: none;
+	margin: -3em;
+	padding: 0em;
+}
+h6 {
+	text-align: center;
+	font-size: 2.5em;
+}
+.mylabel{
+	text-align: center;
+	margin: 4em;
+}
+h2, h4, h5{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.container table{
+	width: 100%
+}
